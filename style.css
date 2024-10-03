@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    max-width: 80%;
+    background-color: rgb(147, 120, 172);
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+}
