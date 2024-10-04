@@ -11,3 +11,12 @@
     color: white;
     font-weight: bold;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+
+    background-color: rgb(140, 109, 170);
+}
