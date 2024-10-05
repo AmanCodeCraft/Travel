@@ -12,11 +12,31 @@
     font-weight: bold;
 }
 
+input,textarea{
+    width: 80%;
+    margin: 13px auto;
+    font-size: 1rem;
+    padding: 4px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: block;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
 .container{
     display: flex;
     flex-direction: column;
 }
 .button{
-
-    background-color: rgb(140, 109, 170);
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 7px 15px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
 }
