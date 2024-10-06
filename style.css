@@ -5,26 +5,31 @@
 
 .container{
     max-width: 80%;
-    background-color: rgb(147, 120, 172);
+    background-color: rgb(170, 156, 187);
     text-align: center;
     margin: auto;
+    margin-top: 10px;
     color: white;
     font-weight: bold;
+    border-radius: 10px;
 }
 
 input,textarea{
-    width: 80%;
+    width: 70%;
     margin: 13px auto;
     font-size: 1rem;
-    padding: 4px;
+    padding: 10px;
     outline: none;
     border-radius: 5px;
     border: 2px solid black;
     display: block;
 }
+h1{
+    font-size: 3rem;
+}
 
 p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .container{
