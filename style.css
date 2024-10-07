@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-.container{
+.container {
     max-width: 80%;
     background-color: rgb(170, 156, 187);
     text-align: center;
@@ -14,7 +14,8 @@
     border-radius: 10px;
 }
 
-input,textarea{
+input,
+textarea {
     width: 70%;
     margin: 13px auto;
     font-size: 1rem;
@@ -24,19 +25,21 @@ input,textarea{
     border: 2px solid black;
     display: block;
 }
-h1{
+
+h1 {
     font-size: 3rem;
 }
 
-p{
+p {
     font-size: 1.5rem;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
 }
-.button{
+
+.button {
     font-size: 1.5rem;
     background-color: white;
     padding: 7px 15px;
@@ -44,4 +47,10 @@ p{
     border: 2px solid white;
     border-radius: 8px;
     cursor: pointer;
+}
+
+.thanku{
+    color: green;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
